@@ -3,3 +3,6 @@ yacs
 cython
 matplotlib
 tqdm
+pycocotools
+cityscapesScripts
+opencv-python
