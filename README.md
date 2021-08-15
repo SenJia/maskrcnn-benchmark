@@ -1,4 +1,15 @@
 # Faster R-CNN and Mask R-CNN in PyTorch 1.0
+Forked from the original repo, some adjustment has been made for a newer version.  
+The nvidia-apex library could be installed via conda, 
+```
+conda install -c conda-forge nvidia-apex
+```
+One line needs changing in the nvidia-apex library, "python3.8/site-packages/apex/amp/_amp_state.py".
+Import the library by
+```
+import collections.abc as container_abcs
+```
+
 
 **maskrcnn-benchmark has been deprecated. Please see [detectron2](https://github.com/facebookresearch/detectron2), which includes implementations for all models in maskrcnn-benchmark**
 
